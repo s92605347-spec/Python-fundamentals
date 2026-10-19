@@ -1,0 +1,9 @@
+q1 = df.loc[
+    (df["Sex"] == "male") &
+    (df["Age"] >= 10) &
+    (df["Age"] <= 20) &
+    (df["Pclass"] == 1) &
+    (df["Survived"] == 1)
+]
+print("Number of passengers:", len(q1))
+print(q1[["Name", "Age", "Sex", "Pclass", "Survived"]])
