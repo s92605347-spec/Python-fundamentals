@@ -1,0 +1,7 @@
+import pandas as pd
+df = pd.read_csv("Titanic-Dataset.csv")
+print(df.head())
+print(df.tail())
+print("Dataset Shape:", df.shape)
+df.info()
+print(df.describe())
