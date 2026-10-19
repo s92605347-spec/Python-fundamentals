@@ -1,0 +1,8 @@
+student = {
+    "name": "AMNA",
+    "age": 19,
+    "gpa": 3.5
+}
+print(student.get("age"))
+print(student.keys())
+print(student.values())
